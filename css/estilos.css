@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.carousel{
+	width: 300px;
+	position: relative; /*hace que muevas relativamente su posición*/
+	top: -600px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+	left: 100px; /*Pixeles a la izquierda de su posición natural*/
+	right: 100px; /*Pixeles a la derecha de su posición natural*/
+}
+.border {
+	border:none;
+	margin-bottom: 5px; 
+	border-top: 5px solid #FAB626;
+	background: none;
+	color:none;
+	position: absolute;
+	width: 1100px;
+	height: 3px;
+	left: 500px;
+	top: 358px;
+}
+.border1 {
+	border:none;
+	margin-bottom: 5px; 
+	border-top: 5px solid #FAB626;
+	background: none;
+	color:none;
+	position: absolute;
+	width: 150px;
+	height: 3px;
+	left: 10px;
+	
+	top: 25px;
+}
+.list-group{
+	
+	width: 300px;
+	position: relative; /*hace que muevas relativamente su posición*/
+	top: -100px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+	left: 100px; /*Pixeles a la izquierda de su posición natural*/
+	right: 100px; /*Pixeles a la derecha de su posición natural*/
+}
+
+.fas{
+	position: relative; /*hace que muevas relativamente su posición*/
+	top: 0px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+	left: 255px; /*Pixeles a la izquierda de su posición natural*/
+	right: 100px; /*Pixeles a la derecha de su posición natural*/
+}
+.btn{
+	color: #fff;
+	background-color: #1A2B52;
+	position: relative; /*hace que muevas relativamente su posición*/
+	top: 476px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+	left: -800px; /*Pixeles a la izquierda de su posición natural*/
+	right: -800px; /*Pixeles a la derecha de su posición natural*/
+}
+.button {
+	background-color: #FAB626; 
+	border: none;
+	color: white;
+	padding: 5px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+  
+  .button1 {
+	background-color: white; 
+	color: #FAB626; 
+	border: 2px solid #FAB626;
+  }
+  .button1:hover {
+	background-color: #FAB626;
+	color: white;
+  }
+
+  .button2:hover {
+	background-color: #FAB626;
+	color: white;
+  }
+.texto1{
+	font-size: 35px;
+	text-align: center;
+	position: relative; /*hace que muevas relativamente su posición*/
+	top: -50px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+	left: -210px; /*Pixeles a la izquierda de su posición natural*/
+	right: -210px; /*Pixeles a la derecha de su posición natural*/
+	
+}
+.texto2{
+	
+	text-align: center;
+	position: relative; /*hace que muevas relativamente su posición*/
+	top: -50px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+	left: -210px; /*Pixeles a la izquierda de su posición natural*/
+	right: -210px; /*Pixeles a la derecha de su posición natural*/
+}
+nav.navbar {
+	background: #1A2B52;
+	position: relative;
+	width: 100%;
+	height: 250px;
+	border-bottom: 10px solid #FAB626;
+	top: -100px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+	left: 0px; /*Pixeles a la izquierda de su posición natural*/
+	right: 0px; /*Pixeles a la derecha de su posición natural*/
+}
+.navbar-brand1{
+	position: relative; /*hace que muevas relativamente su posición*/
+	top: 100px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+	left: 50px; /*Pixeles a la izquierda de su posición natural*/
+	right: 50px; /*Pixeles a la derecha de su posición natural*/
+	
+}
+.navbar-brand2{
+	position: relative; /*hace que muevas relativamente su posición*/
+	top: -20px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+	left: 220px; /*Pixeles a la izquierda de su posición natural*/
+	right: 220px; /*Pixeles a la derecha de su posición natural*/
+}
+.navbar-brand3{
+	position: relative; /*hace que muevas relativamente su posición*/
+	top: -10px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+	left: 250px; /*Pixeles a la izquierda de su posición natural*/
+	right: 250px; /*Pixeles a la derecha de su posición natural*/
+}
+body, html {
+    height: 100%;
+    margin: 0;
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+    background:url(background-login.jpg) no-repeat 0 0;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    /* Compatibilidad con cualquier navegador */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-backgorund-size: cover;
+	margin-bottom:20px;   /* se verá en todos los navegadores */
+	margin-bottom:15px;  /* en todos los IE, se verá con 15px */
+	margin-bottom:15px; /* este hack, es equivalente al anterior: todos los IE */
+	margin-bottom:10px;  /* en todos los IE6, o inferior, se verá con 10px */
+}
+.bg{
+    position: relative; /*hace que muevas relativamente su posición*/
+  top: -140px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+  left: 50px; /*Pixeles a la izquierda de su posición natural*/
+  right: 50px; /*Pixeles a la derecha de su posición natural*/
+}
+.bg-1{
+    position: relative; /*hace que muevas relativamente su posición*/
+    top: -150px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+    left: 80px; /*Pixeles a la izquierda de su posición natural*/
+    right: 80px; /*Pixeles a la derecha de su posición natural*/
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.contenedor {
+	max-width: 350px;
+	width: 90%;
+    margin: auto;
+    margin-top: -800px;
+    
+}
+.formulario {
+	background: #FFFFFF;
+	padding: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 6px;
+}
+.texto-registrate {
+	text-align: center;
+}
+
+.texto-registrate a {
+	display: block;
+	font-size: 18px;
+}
+
+.contenido article {
+	padding: 30px;
+	background: #fff;
+}
+
+.contenido article p{
+	margin-bottom: 10px;
+	color:#000;
+}
+.formulario .form-group {
+	width: 100%;
+    margin-bottom: 10px;
+    position: relative; /*hace que muevas relativamente su posición*/
+    top: -110px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+    left: 0.5px; /*Pixeles a la izquierda de su posición natural*/
+    right: 20px; /*Pixeles a la derecha de su posición natural*/
+    
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"] {
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	border: none;
+	vertical-align: top;
+}
+
+.formulario .icono {
+	padding: 15px;
+	text-align: center;
+	width: 48px;
+	max-height: 48px;
+	font-size: 18px;
+	line-height: 18px;
+	background: #c8c8c8;
+	display: inline-block;
+	color:#6b6b6b;
+	vertical-align: top;
+}
+
+.formulario .icono.izquierda {
+	margin-right: 4px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	-ms-border-radius: 3px 0 0 3px;
+	-o-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+
+.formulario .usuario,
+.formulario .password {
+	width: calc(100% - 52px);
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.formulario .password_btn {
+	width: calc(100% - 105px);
+}
+
+.formulario .error ul {
+	padding: 0 15px;
+}
+
+.formulario .error ul li {
+	margin-bottom: 10px;	
+}
+  .container1 .input{
+	  border: 0;
+	  outline: none;
+	  color: #8b7d77;
+  }
+  
+  .search_wrap{
+	  width: 500px;
+	  margin: 38px auto;
+  }
+  
+  .search_wrap .search_box{
+	  position: relative;
+	  width: 500px;
+	  height: 60px;
+  }
+  
+  .search_wrap .search_box .input{
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  padding: 10px 20px;
+	  border-radius: 3px;
+	  font-size: 18px;
+	  position: relative; /*hace que muevas relativamente su posición*/
+	  top: -145px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+	  left: 700px; /*Pixeles a la izquierda de su posición natural*/
+	  right: 1000px; /*Pixeles a la derecha de su posición natural*/
+  }
+  
+  .search_wrap .search_box .btn{
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  width: 60px;
+	  height: 100%;
+	  background: #FAB626;
+	  z-index: 1;
+	  cursor: pointer;
+	  position: relative; /*hace que muevas relativamente su posición*/
+	  top: -205px; /*Pixeles arriba de su posición natural (puede ser negativo)*/
+	  left: 1140px; /*Pixeles a la izquierda de su posición natural*/
+	  right: 1140px; /*Pixeles a la derecha de su posición natural*/
+  }
+  
+  .search_wrap .search_box .btn:hover{
+	  background: #FAB626;
+  }
+  
+  .search_wrap .search_box .btn.btn_common .fas{
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+	  color: #fff;
+	  font-size: 20px;
+  }
+  
+  .search_wrap.search_wrap_1 .search_box .btn{
+	  right: 0;
+	  border-top-right-radius: 3px;
+	  border-bottom-right-radius: 3px;
+  }
+  
+  .search_wrap.search_wrap_1 .search_box .input,
+  .search_wrap.search_wrap_3 .search_box .input{
+	  padding-right: 80px;
+  }
